@@ -1,0 +1,12 @@
+pluginManagement {
+    repositories {
+        mavenLocal()
+        gradlePluginPortal()
+    }
+}
+
+include ':app', ':module1', ':module2'
+
+//include ':app', ':module2'
+
+rootProject.name = "Hephalumps"
